@@ -23,6 +23,9 @@ export class PatternProperty extends Property {
 		return 'pattern';
 	}
 
+	/**
+	 * @inheritdoc
+	 */
 	public toString(): string {
 		return `PatternProperty(${super.toString()})`;
 	}

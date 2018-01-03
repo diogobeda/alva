@@ -18,6 +18,9 @@ export class StringProperty extends Property {
 		return 'string';
 	}
 
+	/**
+	 * @inheritdoc
+	 */
 	public toString(): string {
 		return `StringProperty(${super.toString()})`;
 	}

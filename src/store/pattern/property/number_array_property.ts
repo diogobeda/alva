@@ -15,6 +15,9 @@ export class NumberArrayProperty extends Property {
 		return 'number[]';
 	}
 
+	/**
+	 * @inheritdoc
+	 */
 	public toString(): string {
 		return `NumberArrayProperty(${super.toString()})`;
 	}

@@ -18,6 +18,9 @@ export class NumberProperty extends Property {
 		return 'number';
 	}
 
+	/**
+	 * @inheritdoc
+	 */
 	public toString(): string {
 		return `NumberProperty(${super.toString()})`;
 	}

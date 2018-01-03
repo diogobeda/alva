@@ -14,6 +14,9 @@ export class BooleanProperty extends Property {
 		return 'boolean';
 	}
 
+	/**
+	 * @inheritdoc
+	 */
 	public toString(): string {
 		return `BooleanProperty(${super.toString()})`;
 	}

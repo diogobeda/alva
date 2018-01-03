@@ -117,6 +117,9 @@ export abstract class Property {
 		this.required = required;
 	}
 
+	/**
+	 * @inheritdoc
+	 */
 	public toString(): string {
 		// tslint:disable-next-line:no-any
 		const properties: [string, any][] = this.getToStringProperties();

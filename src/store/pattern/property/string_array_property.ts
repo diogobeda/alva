@@ -15,6 +15,9 @@ export class StringArrayProperty extends Property {
 		return 'string[]';
 	}
 
+	/**
+	 * @inheritdoc
+	 */
 	public toString(): string {
 		return `StringArrayProperty(${super.toString()})`;
 	}

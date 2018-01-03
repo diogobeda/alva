@@ -66,6 +66,9 @@ export class EnumProperty extends Property {
 		return result;
 	}
 
+	/**
+	 * @inheritdoc
+	 */
 	public toString(): string {
 		return `EnumProperty(${super.toString()})`;
 	}
@@ -94,6 +97,10 @@ export class Option {
 		return this.ordinal;
 	}
 
+	/**
+	 * Returns a string representation of this option.
+	 * @return The string representation.
+	 */
 	public toString(): string {
 		return `Option(id="${this.id}", name="${this.name}", ordinal="${this.ordinal}")`;
 	}

@@ -3,6 +3,10 @@ import * as MobX from 'mobx';
 import { PageElement } from './page_element';
 import { Store } from '../store';
 
+/**
+ * The current actually loaded page of a project. It consists of a tree of page elements,
+ * which in turn provide the properties data for the pattern components.
+ */
 export class Page {
 	/**
 	 * The technical (internal) ID of the page.

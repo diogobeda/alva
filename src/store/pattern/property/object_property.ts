@@ -28,6 +28,9 @@ export class ObjectProperty extends Property {
 		return 'object';
 	}
 
+	/**
+	 * @inheritdoc
+	 */
 	public toString(): string {
 		return `ObjectProperty(${super.toString()})`;
 	}
